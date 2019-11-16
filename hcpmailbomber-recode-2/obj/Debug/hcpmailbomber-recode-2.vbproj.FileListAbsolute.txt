@@ -1,0 +1,14 @@
+C:\Users\Błażej\source\repos\hcpmailbomber-recode-2\hcpmailbomber-recode-2\bin\Debug\hcpmailbomber-recode-2.exe.config
+C:\Users\Błażej\source\repos\hcpmailbomber-recode-2\hcpmailbomber-recode-2\bin\Debug\hcpmailbomber-recode-2.exe
+C:\Users\Błażej\source\repos\hcpmailbomber-recode-2\hcpmailbomber-recode-2\bin\Debug\hcpmailbomber-recode-2.pdb
+C:\Users\Błażej\source\repos\hcpmailbomber-recode-2\hcpmailbomber-recode-2\bin\Debug\hcpmailbomber-recode-2.xml
+C:\Users\Błażej\source\repos\hcpmailbomber-recode-2\hcpmailbomber-recode-2\bin\Debug\MaterialSkin.dll
+C:\Users\Błażej\source\repos\hcpmailbomber-recode-2\hcpmailbomber-recode-2\obj\Debug\hcpmailbomber-recode-2.vbprojAssemblyReference.cache
+C:\Users\Błażej\source\repos\hcpmailbomber-recode-2\hcpmailbomber-recode-2\obj\Debug\hcpmailbomber_recode_2.main.resources
+C:\Users\Błażej\source\repos\hcpmailbomber-recode-2\hcpmailbomber-recode-2\obj\Debug\hcpmailbomber_recode_2.Resources.resources
+C:\Users\Błażej\source\repos\hcpmailbomber-recode-2\hcpmailbomber-recode-2\obj\Debug\hcpmailbomber-recode-2.vbproj.GenerateResource.cache
+C:\Users\Błażej\source\repos\hcpmailbomber-recode-2\hcpmailbomber-recode-2\obj\Debug\hcpmailbomber-recode-2.vbproj.CoreCompileInputs.cache
+C:\Users\Błażej\source\repos\hcpmailbomber-recode-2\hcpmailbomber-recode-2\obj\Debug\hcpmailbomber-recode-2.vbproj.CopyComplete
+C:\Users\Błażej\source\repos\hcpmailbomber-recode-2\hcpmailbomber-recode-2\obj\Debug\hcpmailbomber-recode-2.exe
+C:\Users\Błażej\source\repos\hcpmailbomber-recode-2\hcpmailbomber-recode-2\obj\Debug\hcpmailbomber-recode-2.xml
+C:\Users\Błażej\source\repos\hcpmailbomber-recode-2\hcpmailbomber-recode-2\obj\Debug\hcpmailbomber-recode-2.pdb
