@@ -11,3 +11,4 @@ C:\Users\Błażej\source\repos\hcpmailbomber-recode-2\hcpmailbomber-recode-2\obj
 C:\Users\Błażej\source\repos\hcpmailbomber-recode-2\hcpmailbomber-recode-2\obj\Release\hcpmailbomber-recode-2.exe
 C:\Users\Błażej\source\repos\hcpmailbomber-recode-2\hcpmailbomber-recode-2\obj\Release\hcpmailbomber-recode-2.xml
 C:\Users\Błażej\source\repos\hcpmailbomber-recode-2\hcpmailbomber-recode-2\obj\Release\hcpmailbomber-recode-2.pdb
+C:\Users\Błażej\source\repos\hcpmailbomber-recode-2\hcpmailbomber-recode-2\obj\Release\hcpmailbomber-recode-2.vbprojAssemblyReference.cache

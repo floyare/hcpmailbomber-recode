@@ -1,4 +1,9 @@
-﻿Imports System.IO
+﻿'Changelog:
+' - Added MailPriority.High
+' - Added "Unprintable" bypass
+
+
+Imports System.IO
 Imports System.Net
 Imports System.Net.Mail
 Imports System.Text
@@ -21,6 +26,7 @@ Public Class main
 
     Private Sub main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         pStatus.ForeColor = Color.DarkOrange
+        pMail.Priority = System.Net.Mail.MailPriority.High
     End Sub
 
     Private Sub pChecker_Tick(sender As Object, e As EventArgs) Handles pChecker.Tick
@@ -32,10 +38,14 @@ Public Class main
         If pBypassCheck.Checked = True Then
             pClassicBypass.Enabled = True
             pHTMLBypass.Enabled = True
+            pUnprintableBypass.Enabled = True
+
             isBypassChecked = True
         Else
             pClassicBypass.Enabled = False
             pHTMLBypass.Enabled = False
+            pUnprintableBypass.Enabled = False
+
             isBypassChecked = False
         End If
 
@@ -80,6 +90,18 @@ Public Class main
                                 </body>
                             </html>
 """
+        ElseIf pUnprintableBypass.Checked = True Then 'Unprintable bypass
+            pMail.IsBodyHtml = False
+            Dim pS As String = pBypassList.Unprintable
+            Dim pR As New Random
+            Dim pSB As New StringBuilder
+            For pI As Integer = 0 To pS.Count
+                Dim pIDX As Integer = pR.Next(0, pS.Count)
+                pSB.Append(pS.Substring(pIDX, 1))
+            Next
+
+            pTitle.Text = pSB.ToString
+            pBody.Text = pSB.ToString
         End If
     End Sub
 

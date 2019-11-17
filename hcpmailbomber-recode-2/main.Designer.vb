@@ -26,37 +26,38 @@ Partial Class main
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(main))
         Me.MaterialTabControl1 = New MaterialSkin.Controls.MaterialTabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
-        Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.MaterialTabSelector1 = New MaterialSkin.Controls.MaterialTabSelector()
-        Me.TabPage3 = New System.Windows.Forms.TabPage()
-        Me.MaterialLabel1 = New MaterialSkin.Controls.MaterialLabel()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.MaterialLabel2 = New MaterialSkin.Controls.MaterialLabel()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.pMailFor = New MaterialSkin.Controls.MaterialSingleLineTextField()
-        Me.pStart = New MaterialSkin.Controls.MaterialRaisedButton()
-        Me.pStop = New MaterialSkin.Controls.MaterialRaisedButton()
-        Me.MaterialLabel3 = New MaterialSkin.Controls.MaterialLabel()
-        Me.MaterialLabel4 = New MaterialSkin.Controls.MaterialLabel()
-        Me.MaterialLabel5 = New MaterialSkin.Controls.MaterialLabel()
-        Me.pMailCount = New MaterialSkin.Controls.MaterialLabel()
-        Me.pStatus = New MaterialSkin.Controls.MaterialLabel()
-        Me.pMailFrom = New MaterialSkin.Controls.MaterialSingleLineTextField()
-        Me.pPassFrom = New MaterialSkin.Controls.MaterialSingleLineTextField()
-        Me.MaterialLabel6 = New MaterialSkin.Controls.MaterialLabel()
-        Me.MaterialLabel7 = New MaterialSkin.Controls.MaterialLabel()
-        Me.MaterialDivider1 = New MaterialSkin.Controls.MaterialDivider()
-        Me.MaterialLabel8 = New MaterialSkin.Controls.MaterialLabel()
-        Me.pBypassCheck = New MaterialSkin.Controls.MaterialCheckBox()
-        Me.pClassicBypass = New MaterialSkin.Controls.MaterialRadioButton()
-        Me.pHTMLBypass = New MaterialSkin.Controls.MaterialRadioButton()
-        Me.pTitle = New System.Windows.Forms.TextBox()
-        Me.pBody = New System.Windows.Forms.RichTextBox()
-        Me.MaterialLabel9 = New MaterialSkin.Controls.MaterialLabel()
-        Me.MaterialLabel10 = New MaterialSkin.Controls.MaterialLabel()
-        Me.pChecker = New System.Windows.Forms.Timer(Me.components)
-        Me.MaterialLabel11 = New MaterialSkin.Controls.MaterialLabel()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.MaterialLabel11 = New MaterialSkin.Controls.MaterialLabel()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.MaterialLabel2 = New MaterialSkin.Controls.MaterialLabel()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.MaterialLabel1 = New MaterialSkin.Controls.MaterialLabel()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.pStatus = New MaterialSkin.Controls.MaterialLabel()
+        Me.pMailCount = New MaterialSkin.Controls.MaterialLabel()
+        Me.MaterialLabel5 = New MaterialSkin.Controls.MaterialLabel()
+        Me.MaterialLabel4 = New MaterialSkin.Controls.MaterialLabel()
+        Me.MaterialLabel3 = New MaterialSkin.Controls.MaterialLabel()
+        Me.pStop = New MaterialSkin.Controls.MaterialRaisedButton()
+        Me.pStart = New MaterialSkin.Controls.MaterialRaisedButton()
+        Me.pMailFor = New MaterialSkin.Controls.MaterialSingleLineTextField()
+        Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.MaterialLabel10 = New MaterialSkin.Controls.MaterialLabel()
+        Me.MaterialLabel9 = New MaterialSkin.Controls.MaterialLabel()
+        Me.pBody = New System.Windows.Forms.RichTextBox()
+        Me.pTitle = New System.Windows.Forms.TextBox()
+        Me.pHTMLBypass = New MaterialSkin.Controls.MaterialRadioButton()
+        Me.pClassicBypass = New MaterialSkin.Controls.MaterialRadioButton()
+        Me.pBypassCheck = New MaterialSkin.Controls.MaterialCheckBox()
+        Me.MaterialLabel8 = New MaterialSkin.Controls.MaterialLabel()
+        Me.MaterialDivider1 = New MaterialSkin.Controls.MaterialDivider()
+        Me.MaterialLabel7 = New MaterialSkin.Controls.MaterialLabel()
+        Me.MaterialLabel6 = New MaterialSkin.Controls.MaterialLabel()
+        Me.pPassFrom = New MaterialSkin.Controls.MaterialSingleLineTextField()
+        Me.pMailFrom = New MaterialSkin.Controls.MaterialSingleLineTextField()
+        Me.MaterialTabSelector1 = New MaterialSkin.Controls.MaterialTabSelector()
+        Me.pChecker = New System.Windows.Forms.Timer(Me.components)
+        Me.pUnprintableBypass = New MaterialSkin.Controls.MaterialRadioButton()
         Me.MaterialTabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
@@ -93,6 +94,71 @@ Partial Class main
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Information"
         '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(21, 214)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(120, 13)
+        Me.Label3.TabIndex = 5
+        Me.Label3.Text = "- Random 10minute mail"
+        '
+        'MaterialLabel11
+        '
+        Me.MaterialLabel11.AutoSize = True
+        Me.MaterialLabel11.Depth = 0
+        Me.MaterialLabel11.Font = New System.Drawing.Font("Roboto", 11.0!)
+        Me.MaterialLabel11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MaterialLabel11.Location = New System.Drawing.Point(17, 195)
+        Me.MaterialLabel11.MouseState = MaterialSkin.MouseState.HOVER
+        Me.MaterialLabel11.Name = "MaterialLabel11"
+        Me.MaterialLabel11.Size = New System.Drawing.Size(48, 19)
+        Me.MaterialLabel11.TabIndex = 4
+        Me.MaterialLabel11.Text = "Todo:"
+        '
+        'Label2
+        '
+        Me.Label2.Location = New System.Drawing.Point(21, 102)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(486, 93)
+        Me.Label2.TabIndex = 3
+        Me.Label2.Text = resources.GetString("Label2.Text")
+        '
+        'MaterialLabel2
+        '
+        Me.MaterialLabel2.AutoSize = True
+        Me.MaterialLabel2.Depth = 0
+        Me.MaterialLabel2.Font = New System.Drawing.Font("Roboto", 11.0!)
+        Me.MaterialLabel2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MaterialLabel2.Location = New System.Drawing.Point(17, 83)
+        Me.MaterialLabel2.MouseState = MaterialSkin.MouseState.HOVER
+        Me.MaterialLabel2.Name = "MaterialLabel2"
+        Me.MaterialLabel2.Size = New System.Drawing.Size(91, 19)
+        Me.MaterialLabel2.TabIndex = 2
+        Me.MaterialLabel2.Text = "Information:"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(21, 43)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(70, 13)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "recode v0.1a"
+        '
+        'MaterialLabel1
+        '
+        Me.MaterialLabel1.AutoSize = True
+        Me.MaterialLabel1.Depth = 0
+        Me.MaterialLabel1.Font = New System.Drawing.Font("Roboto", 11.0!)
+        Me.MaterialLabel1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MaterialLabel1.Location = New System.Drawing.Point(17, 20)
+        Me.MaterialLabel1.MouseState = MaterialSkin.MouseState.HOVER
+        Me.MaterialLabel1.Name = "MaterialLabel1"
+        Me.MaterialLabel1.Size = New System.Drawing.Size(120, 19)
+        Me.MaterialLabel1.TabIndex = 0
+        Me.MaterialLabel1.Text = "HCPMailBomber"
+        '
         'TabPage2
         '
         Me.TabPage2.BackColor = System.Drawing.Color.White
@@ -111,20 +177,122 @@ Partial Class main
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "MailBomber"
         '
-        'MaterialTabSelector1
+        'pStatus
         '
-        Me.MaterialTabSelector1.BaseTabControl = Me.MaterialTabControl1
-        Me.MaterialTabSelector1.Depth = 0
-        Me.MaterialTabSelector1.Location = New System.Drawing.Point(176, 35)
-        Me.MaterialTabSelector1.MouseState = MaterialSkin.MouseState.HOVER
-        Me.MaterialTabSelector1.Name = "MaterialTabSelector1"
-        Me.MaterialTabSelector1.Size = New System.Drawing.Size(388, 26)
-        Me.MaterialTabSelector1.TabIndex = 2
-        Me.MaterialTabSelector1.Text = "MaterialTabSelector1"
+        Me.pStatus.AutoSize = True
+        Me.pStatus.Depth = 0
+        Me.pStatus.Font = New System.Drawing.Font("Roboto", 11.0!)
+        Me.pStatus.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.pStatus.Location = New System.Drawing.Point(75, 123)
+        Me.pStatus.MouseState = MaterialSkin.MouseState.HOVER
+        Me.pStatus.Name = "pStatus"
+        Me.pStatus.Size = New System.Drawing.Size(33, 19)
+        Me.pStatus.TabIndex = 7
+        Me.pStatus.Text = "Idle"
+        '
+        'pMailCount
+        '
+        Me.pMailCount.AutoSize = True
+        Me.pMailCount.Depth = 0
+        Me.pMailCount.Font = New System.Drawing.Font("Roboto", 11.0!)
+        Me.pMailCount.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.pMailCount.Location = New System.Drawing.Point(111, 103)
+        Me.pMailCount.MouseState = MaterialSkin.MouseState.HOVER
+        Me.pMailCount.Name = "pMailCount"
+        Me.pMailCount.Size = New System.Drawing.Size(17, 19)
+        Me.pMailCount.TabIndex = 6
+        Me.pMailCount.Text = "0"
+        '
+        'MaterialLabel5
+        '
+        Me.MaterialLabel5.AutoSize = True
+        Me.MaterialLabel5.Depth = 0
+        Me.MaterialLabel5.Font = New System.Drawing.Font("Roboto", 11.0!)
+        Me.MaterialLabel5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MaterialLabel5.Location = New System.Drawing.Point(13, 123)
+        Me.MaterialLabel5.MouseState = MaterialSkin.MouseState.HOVER
+        Me.MaterialLabel5.Name = "MaterialLabel5"
+        Me.MaterialLabel5.Size = New System.Drawing.Size(56, 19)
+        Me.MaterialLabel5.TabIndex = 5
+        Me.MaterialLabel5.Text = "Status:"
+        '
+        'MaterialLabel4
+        '
+        Me.MaterialLabel4.AutoSize = True
+        Me.MaterialLabel4.Depth = 0
+        Me.MaterialLabel4.Font = New System.Drawing.Font("Roboto", 11.0!)
+        Me.MaterialLabel4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MaterialLabel4.Location = New System.Drawing.Point(13, 104)
+        Me.MaterialLabel4.MouseState = MaterialSkin.MouseState.HOVER
+        Me.MaterialLabel4.Name = "MaterialLabel4"
+        Me.MaterialLabel4.Size = New System.Drawing.Size(92, 19)
+        Me.MaterialLabel4.TabIndex = 4
+        Me.MaterialLabel4.Text = "Sent emails:"
+        '
+        'MaterialLabel3
+        '
+        Me.MaterialLabel3.AutoSize = True
+        Me.MaterialLabel3.Depth = 0
+        Me.MaterialLabel3.Font = New System.Drawing.Font("Roboto", 11.0!)
+        Me.MaterialLabel3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MaterialLabel3.Location = New System.Drawing.Point(243, 19)
+        Me.MaterialLabel3.MouseState = MaterialSkin.MouseState.HOVER
+        Me.MaterialLabel3.Name = "MaterialLabel3"
+        Me.MaterialLabel3.Size = New System.Drawing.Size(51, 19)
+        Me.MaterialLabel3.TabIndex = 3
+        Me.MaterialLabel3.Text = "E-mail"
+        '
+        'pStop
+        '
+        Me.pStop.AutoSize = True
+        Me.pStop.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
+        Me.pStop.Depth = 0
+        Me.pStop.Icon = Nothing
+        Me.pStop.Location = New System.Drawing.Point(172, 48)
+        Me.pStop.MouseState = MaterialSkin.MouseState.HOVER
+        Me.pStop.Name = "pStop"
+        Me.pStop.Primary = True
+        Me.pStop.Size = New System.Drawing.Size(56, 36)
+        Me.pStop.TabIndex = 2
+        Me.pStop.Text = "Stop"
+        Me.pStop.UseVisualStyleBackColor = True
+        '
+        'pStart
+        '
+        Me.pStart.AutoSize = True
+        Me.pStart.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
+        Me.pStart.Depth = 0
+        Me.pStart.Icon = Nothing
+        Me.pStart.Location = New System.Drawing.Point(17, 48)
+        Me.pStart.MouseState = MaterialSkin.MouseState.HOVER
+        Me.pStart.Name = "pStart"
+        Me.pStart.Primary = True
+        Me.pStart.Size = New System.Drawing.Size(64, 36)
+        Me.pStart.TabIndex = 1
+        Me.pStart.Text = "Start"
+        Me.pStart.UseVisualStyleBackColor = True
+        '
+        'pMailFor
+        '
+        Me.pMailFor.Depth = 0
+        Me.pMailFor.Hint = ""
+        Me.pMailFor.Location = New System.Drawing.Point(17, 19)
+        Me.pMailFor.MaxLength = 32767
+        Me.pMailFor.MouseState = MaterialSkin.MouseState.HOVER
+        Me.pMailFor.Name = "pMailFor"
+        Me.pMailFor.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.pMailFor.SelectedText = ""
+        Me.pMailFor.SelectionLength = 0
+        Me.pMailFor.SelectionStart = 0
+        Me.pMailFor.Size = New System.Drawing.Size(219, 23)
+        Me.pMailFor.TabIndex = 0
+        Me.pMailFor.TabStop = False
+        Me.pMailFor.UseSystemPasswordChar = False
         '
         'TabPage3
         '
         Me.TabPage3.BackColor = System.Drawing.Color.White
+        Me.TabPage3.Controls.Add(Me.pUnprintableBypass)
         Me.TabPage3.Controls.Add(Me.MaterialLabel10)
         Me.TabPage3.Controls.Add(Me.MaterialLabel9)
         Me.TabPage3.Controls.Add(Me.pBody)
@@ -144,278 +312,51 @@ Partial Class main
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "Settings"
         '
-        'MaterialLabel1
+        'MaterialLabel10
         '
-        Me.MaterialLabel1.AutoSize = True
-        Me.MaterialLabel1.Depth = 0
-        Me.MaterialLabel1.Font = New System.Drawing.Font("Roboto", 11.0!)
-        Me.MaterialLabel1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.MaterialLabel1.Location = New System.Drawing.Point(17, 20)
-        Me.MaterialLabel1.MouseState = MaterialSkin.MouseState.HOVER
-        Me.MaterialLabel1.Name = "MaterialLabel1"
-        Me.MaterialLabel1.Size = New System.Drawing.Size(120, 19)
-        Me.MaterialLabel1.TabIndex = 0
-        Me.MaterialLabel1.Text = "HCPMailBomber"
+        Me.MaterialLabel10.AutoSize = True
+        Me.MaterialLabel10.Depth = 0
+        Me.MaterialLabel10.Font = New System.Drawing.Font("Roboto", 11.0!)
+        Me.MaterialLabel10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MaterialLabel10.Location = New System.Drawing.Point(229, 156)
+        Me.MaterialLabel10.MouseState = MaterialSkin.MouseState.HOVER
+        Me.MaterialLabel10.Name = "MaterialLabel10"
+        Me.MaterialLabel10.Size = New System.Drawing.Size(42, 19)
+        Me.MaterialLabel10.TabIndex = 14
+        Me.MaterialLabel10.Text = "Body"
         '
-        'Label1
+        'MaterialLabel9
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(21, 43)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(70, 13)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "recode v0.1a"
+        Me.MaterialLabel9.AutoSize = True
+        Me.MaterialLabel9.Depth = 0
+        Me.MaterialLabel9.Font = New System.Drawing.Font("Roboto", 11.0!)
+        Me.MaterialLabel9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MaterialLabel9.Location = New System.Drawing.Point(229, 116)
+        Me.MaterialLabel9.MouseState = MaterialSkin.MouseState.HOVER
+        Me.MaterialLabel9.Name = "MaterialLabel9"
+        Me.MaterialLabel9.Size = New System.Drawing.Size(39, 19)
+        Me.MaterialLabel9.TabIndex = 13
+        Me.MaterialLabel9.Text = "Title"
         '
-        'MaterialLabel2
+        'pBody
         '
-        Me.MaterialLabel2.AutoSize = True
-        Me.MaterialLabel2.Depth = 0
-        Me.MaterialLabel2.Font = New System.Drawing.Font("Roboto", 11.0!)
-        Me.MaterialLabel2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.MaterialLabel2.Location = New System.Drawing.Point(17, 83)
-        Me.MaterialLabel2.MouseState = MaterialSkin.MouseState.HOVER
-        Me.MaterialLabel2.Name = "MaterialLabel2"
-        Me.MaterialLabel2.Size = New System.Drawing.Size(91, 19)
-        Me.MaterialLabel2.TabIndex = 2
-        Me.MaterialLabel2.Text = "Information:"
+        Me.pBody.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.pBody.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.pBody.Location = New System.Drawing.Point(15, 160)
+        Me.pBody.Name = "pBody"
+        Me.pBody.Size = New System.Drawing.Size(208, 79)
+        Me.pBody.TabIndex = 12
+        Me.pBody.Text = ""
         '
-        'Label2
+        'pTitle
         '
-        Me.Label2.Location = New System.Drawing.Point(21, 102)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(486, 93)
-        Me.Label2.TabIndex = 3
-        Me.Label2.Text = resources.GetString("Label2.Text")
-        '
-        'pMailFor
-        '
-        Me.pMailFor.Depth = 0
-        Me.pMailFor.Hint = ""
-        Me.pMailFor.Location = New System.Drawing.Point(17, 19)
-        Me.pMailFor.MaxLength = 32767
-        Me.pMailFor.MouseState = MaterialSkin.MouseState.HOVER
-        Me.pMailFor.Name = "pMailFor"
-        Me.pMailFor.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.pMailFor.SelectedText = ""
-        Me.pMailFor.SelectionLength = 0
-        Me.pMailFor.SelectionStart = 0
-        Me.pMailFor.Size = New System.Drawing.Size(219, 23)
-        Me.pMailFor.TabIndex = 0
-        Me.pMailFor.TabStop = False
-        Me.pMailFor.UseSystemPasswordChar = False
-        '
-        'pStart
-        '
-        Me.pStart.AutoSize = True
-        Me.pStart.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.pStart.Depth = 0
-        Me.pStart.Icon = Nothing
-        Me.pStart.Location = New System.Drawing.Point(17, 48)
-        Me.pStart.MouseState = MaterialSkin.MouseState.HOVER
-        Me.pStart.Name = "pStart"
-        Me.pStart.Primary = True
-        Me.pStart.Size = New System.Drawing.Size(64, 36)
-        Me.pStart.TabIndex = 1
-        Me.pStart.Text = "Start"
-        Me.pStart.UseVisualStyleBackColor = True
-        '
-        'pStop
-        '
-        Me.pStop.AutoSize = True
-        Me.pStop.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.pStop.Depth = 0
-        Me.pStop.Icon = Nothing
-        Me.pStop.Location = New System.Drawing.Point(172, 48)
-        Me.pStop.MouseState = MaterialSkin.MouseState.HOVER
-        Me.pStop.Name = "pStop"
-        Me.pStop.Primary = True
-        Me.pStop.Size = New System.Drawing.Size(56, 36)
-        Me.pStop.TabIndex = 2
-        Me.pStop.Text = "Stop"
-        Me.pStop.UseVisualStyleBackColor = True
-        '
-        'MaterialLabel3
-        '
-        Me.MaterialLabel3.AutoSize = True
-        Me.MaterialLabel3.Depth = 0
-        Me.MaterialLabel3.Font = New System.Drawing.Font("Roboto", 11.0!)
-        Me.MaterialLabel3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.MaterialLabel3.Location = New System.Drawing.Point(243, 19)
-        Me.MaterialLabel3.MouseState = MaterialSkin.MouseState.HOVER
-        Me.MaterialLabel3.Name = "MaterialLabel3"
-        Me.MaterialLabel3.Size = New System.Drawing.Size(51, 19)
-        Me.MaterialLabel3.TabIndex = 3
-        Me.MaterialLabel3.Text = "E-mail"
-        '
-        'MaterialLabel4
-        '
-        Me.MaterialLabel4.AutoSize = True
-        Me.MaterialLabel4.Depth = 0
-        Me.MaterialLabel4.Font = New System.Drawing.Font("Roboto", 11.0!)
-        Me.MaterialLabel4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.MaterialLabel4.Location = New System.Drawing.Point(13, 104)
-        Me.MaterialLabel4.MouseState = MaterialSkin.MouseState.HOVER
-        Me.MaterialLabel4.Name = "MaterialLabel4"
-        Me.MaterialLabel4.Size = New System.Drawing.Size(92, 19)
-        Me.MaterialLabel4.TabIndex = 4
-        Me.MaterialLabel4.Text = "Sent emails:"
-        '
-        'MaterialLabel5
-        '
-        Me.MaterialLabel5.AutoSize = True
-        Me.MaterialLabel5.Depth = 0
-        Me.MaterialLabel5.Font = New System.Drawing.Font("Roboto", 11.0!)
-        Me.MaterialLabel5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.MaterialLabel5.Location = New System.Drawing.Point(13, 123)
-        Me.MaterialLabel5.MouseState = MaterialSkin.MouseState.HOVER
-        Me.MaterialLabel5.Name = "MaterialLabel5"
-        Me.MaterialLabel5.Size = New System.Drawing.Size(56, 19)
-        Me.MaterialLabel5.TabIndex = 5
-        Me.MaterialLabel5.Text = "Status:"
-        '
-        'pMailCount
-        '
-        Me.pMailCount.AutoSize = True
-        Me.pMailCount.Depth = 0
-        Me.pMailCount.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(238, Byte))
-        Me.pMailCount.ForeColor = System.Drawing.Color.Black
-        Me.pMailCount.Location = New System.Drawing.Point(111, 103)
-        Me.pMailCount.MouseState = MaterialSkin.MouseState.HOVER
-        Me.pMailCount.Name = "pMailCount"
-        Me.pMailCount.Size = New System.Drawing.Size(18, 20)
-        Me.pMailCount.TabIndex = 6
-        Me.pMailCount.Text = "0"
-        '
-        'pStatus
-        '
-        Me.pStatus.AutoSize = True
-        Me.pStatus.Depth = 0
-        Me.pStatus.Font = New System.Drawing.Font("Roboto", 11.0!)
-        Me.pStatus.ForeColor = System.Drawing.Color.DarkOrange
-        Me.pStatus.Location = New System.Drawing.Point(75, 123)
-        Me.pStatus.MouseState = MaterialSkin.MouseState.HOVER
-        Me.pStatus.Name = "pStatus"
-        Me.pStatus.Size = New System.Drawing.Size(33, 19)
-        Me.pStatus.TabIndex = 7
-        Me.pStatus.Text = "Idle"
-        '
-        'pMailFrom
-        '
-        Me.pMailFrom.Depth = 0
-        Me.pMailFrom.Hint = ""
-        Me.pMailFrom.Location = New System.Drawing.Point(15, 18)
-        Me.pMailFrom.MaxLength = 32767
-        Me.pMailFrom.MouseState = MaterialSkin.MouseState.HOVER
-        Me.pMailFrom.Name = "pMailFrom"
-        Me.pMailFrom.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.pMailFrom.SelectedText = ""
-        Me.pMailFrom.SelectionLength = 0
-        Me.pMailFrom.SelectionStart = 0
-        Me.pMailFrom.Size = New System.Drawing.Size(208, 23)
-        Me.pMailFrom.TabIndex = 0
-        Me.pMailFrom.TabStop = False
-        Me.pMailFrom.UseSystemPasswordChar = False
-        '
-        'pPassFrom
-        '
-        Me.pPassFrom.Depth = 0
-        Me.pPassFrom.Hint = ""
-        Me.pPassFrom.Location = New System.Drawing.Point(15, 63)
-        Me.pPassFrom.MaxLength = 32767
-        Me.pPassFrom.MouseState = MaterialSkin.MouseState.HOVER
-        Me.pPassFrom.Name = "pPassFrom"
-        Me.pPassFrom.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.pPassFrom.SelectedText = ""
-        Me.pPassFrom.SelectionLength = 0
-        Me.pPassFrom.SelectionStart = 0
-        Me.pPassFrom.Size = New System.Drawing.Size(208, 23)
-        Me.pPassFrom.TabIndex = 1
-        Me.pPassFrom.TabStop = False
-        Me.pPassFrom.UseSystemPasswordChar = False
-        '
-        'MaterialLabel6
-        '
-        Me.MaterialLabel6.AutoSize = True
-        Me.MaterialLabel6.Depth = 0
-        Me.MaterialLabel6.Font = New System.Drawing.Font("Roboto", 11.0!)
-        Me.MaterialLabel6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.MaterialLabel6.Location = New System.Drawing.Point(241, 18)
-        Me.MaterialLabel6.MouseState = MaterialSkin.MouseState.HOVER
-        Me.MaterialLabel6.Name = "MaterialLabel6"
-        Me.MaterialLabel6.Size = New System.Drawing.Size(51, 19)
-        Me.MaterialLabel6.TabIndex = 4
-        Me.MaterialLabel6.Text = "E-mail"
-        '
-        'MaterialLabel7
-        '
-        Me.MaterialLabel7.AutoSize = True
-        Me.MaterialLabel7.Depth = 0
-        Me.MaterialLabel7.Font = New System.Drawing.Font("Roboto", 11.0!)
-        Me.MaterialLabel7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.MaterialLabel7.Location = New System.Drawing.Point(241, 63)
-        Me.MaterialLabel7.MouseState = MaterialSkin.MouseState.HOVER
-        Me.MaterialLabel7.Name = "MaterialLabel7"
-        Me.MaterialLabel7.Size = New System.Drawing.Size(75, 19)
-        Me.MaterialLabel7.TabIndex = 5
-        Me.MaterialLabel7.Text = "Password"
-        '
-        'MaterialDivider1
-        '
-        Me.MaterialDivider1.BackColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.MaterialDivider1.Depth = 0
-        Me.MaterialDivider1.Location = New System.Drawing.Point(329, 0)
-        Me.MaterialDivider1.MouseState = MaterialSkin.MouseState.HOVER
-        Me.MaterialDivider1.Name = "MaterialDivider1"
-        Me.MaterialDivider1.Size = New System.Drawing.Size(14, 262)
-        Me.MaterialDivider1.TabIndex = 6
-        Me.MaterialDivider1.Text = "MaterialDivider1"
-        '
-        'MaterialLabel8
-        '
-        Me.MaterialLabel8.AutoSize = True
-        Me.MaterialLabel8.Depth = 0
-        Me.MaterialLabel8.Font = New System.Drawing.Font("Roboto", 11.0!)
-        Me.MaterialLabel8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.MaterialLabel8.Location = New System.Drawing.Point(349, 18)
-        Me.MaterialLabel8.MouseState = MaterialSkin.MouseState.HOVER
-        Me.MaterialLabel8.Name = "MaterialLabel8"
-        Me.MaterialLabel8.Size = New System.Drawing.Size(46, 19)
-        Me.MaterialLabel8.TabIndex = 7
-        Me.MaterialLabel8.Text = "Misc:"
-        '
-        'pBypassCheck
-        '
-        Me.pBypassCheck.AutoSize = True
-        Me.pBypassCheck.Depth = 0
-        Me.pBypassCheck.Font = New System.Drawing.Font("Roboto", 10.0!)
-        Me.pBypassCheck.Location = New System.Drawing.Point(353, 41)
-        Me.pBypassCheck.Margin = New System.Windows.Forms.Padding(0)
-        Me.pBypassCheck.MouseLocation = New System.Drawing.Point(-1, -1)
-        Me.pBypassCheck.MouseState = MaterialSkin.MouseState.HOVER
-        Me.pBypassCheck.Name = "pBypassCheck"
-        Me.pBypassCheck.Ripple = True
-        Me.pBypassCheck.Size = New System.Drawing.Size(141, 30)
-        Me.pBypassCheck.TabIndex = 8
-        Me.pBypassCheck.Text = "Anti-spam bypass"
-        Me.pBypassCheck.UseVisualStyleBackColor = True
-        '
-        'pClassicBypass
-        '
-        Me.pClassicBypass.AutoSize = True
-        Me.pClassicBypass.Depth = 0
-        Me.pClassicBypass.Enabled = False
-        Me.pClassicBypass.Font = New System.Drawing.Font("Roboto", 10.0!)
-        Me.pClassicBypass.Location = New System.Drawing.Point(373, 71)
-        Me.pClassicBypass.Margin = New System.Windows.Forms.Padding(0)
-        Me.pClassicBypass.MouseLocation = New System.Drawing.Point(-1, -1)
-        Me.pClassicBypass.MouseState = MaterialSkin.MouseState.HOVER
-        Me.pClassicBypass.Name = "pClassicBypass"
-        Me.pClassicBypass.Ripple = True
-        Me.pClassicBypass.Size = New System.Drawing.Size(74, 30)
-        Me.pClassicBypass.TabIndex = 9
-        Me.pClassicBypass.TabStop = True
-        Me.pClassicBypass.Text = "Classic"
-        Me.pClassicBypass.UseVisualStyleBackColor = True
+        Me.pTitle.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.pTitle.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.pTitle.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(238, Byte))
+        Me.pTitle.Location = New System.Drawing.Point(15, 116)
+        Me.pTitle.Name = "pTitle"
+        Me.pTitle.Size = New System.Drawing.Size(208, 15)
+        Me.pTitle.TabIndex = 11
         '
         'pHTMLBypass
         '
@@ -435,77 +376,156 @@ Partial Class main
         Me.pHTMLBypass.Text = "HTML"
         Me.pHTMLBypass.UseVisualStyleBackColor = True
         '
-        'pTitle
+        'pClassicBypass
         '
-        Me.pTitle.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.pTitle.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.pTitle.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(238, Byte))
-        Me.pTitle.Location = New System.Drawing.Point(15, 116)
-        Me.pTitle.Name = "pTitle"
-        Me.pTitle.Size = New System.Drawing.Size(208, 15)
-        Me.pTitle.TabIndex = 11
+        Me.pClassicBypass.AutoSize = True
+        Me.pClassicBypass.Depth = 0
+        Me.pClassicBypass.Enabled = False
+        Me.pClassicBypass.Font = New System.Drawing.Font("Roboto", 10.0!)
+        Me.pClassicBypass.Location = New System.Drawing.Point(373, 71)
+        Me.pClassicBypass.Margin = New System.Windows.Forms.Padding(0)
+        Me.pClassicBypass.MouseLocation = New System.Drawing.Point(-1, -1)
+        Me.pClassicBypass.MouseState = MaterialSkin.MouseState.HOVER
+        Me.pClassicBypass.Name = "pClassicBypass"
+        Me.pClassicBypass.Ripple = True
+        Me.pClassicBypass.Size = New System.Drawing.Size(74, 30)
+        Me.pClassicBypass.TabIndex = 9
+        Me.pClassicBypass.TabStop = True
+        Me.pClassicBypass.Text = "Classic"
+        Me.pClassicBypass.UseVisualStyleBackColor = True
         '
-        'pBody
+        'pBypassCheck
         '
-        Me.pBody.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.pBody.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.pBody.Location = New System.Drawing.Point(15, 160)
-        Me.pBody.Name = "pBody"
-        Me.pBody.Size = New System.Drawing.Size(208, 79)
-        Me.pBody.TabIndex = 12
-        Me.pBody.Text = ""
+        Me.pBypassCheck.AutoSize = True
+        Me.pBypassCheck.Depth = 0
+        Me.pBypassCheck.Font = New System.Drawing.Font("Roboto", 10.0!)
+        Me.pBypassCheck.Location = New System.Drawing.Point(353, 41)
+        Me.pBypassCheck.Margin = New System.Windows.Forms.Padding(0)
+        Me.pBypassCheck.MouseLocation = New System.Drawing.Point(-1, -1)
+        Me.pBypassCheck.MouseState = MaterialSkin.MouseState.HOVER
+        Me.pBypassCheck.Name = "pBypassCheck"
+        Me.pBypassCheck.Ripple = True
+        Me.pBypassCheck.Size = New System.Drawing.Size(141, 30)
+        Me.pBypassCheck.TabIndex = 8
+        Me.pBypassCheck.Text = "Anti-spam bypass"
+        Me.pBypassCheck.UseVisualStyleBackColor = True
         '
-        'MaterialLabel9
+        'MaterialLabel8
         '
-        Me.MaterialLabel9.AutoSize = True
-        Me.MaterialLabel9.Depth = 0
-        Me.MaterialLabel9.Font = New System.Drawing.Font("Roboto", 11.0!)
-        Me.MaterialLabel9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.MaterialLabel9.Location = New System.Drawing.Point(229, 116)
-        Me.MaterialLabel9.MouseState = MaterialSkin.MouseState.HOVER
-        Me.MaterialLabel9.Name = "MaterialLabel9"
-        Me.MaterialLabel9.Size = New System.Drawing.Size(39, 19)
-        Me.MaterialLabel9.TabIndex = 13
-        Me.MaterialLabel9.Text = "Title"
+        Me.MaterialLabel8.AutoSize = True
+        Me.MaterialLabel8.Depth = 0
+        Me.MaterialLabel8.Font = New System.Drawing.Font("Roboto", 11.0!)
+        Me.MaterialLabel8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MaterialLabel8.Location = New System.Drawing.Point(349, 18)
+        Me.MaterialLabel8.MouseState = MaterialSkin.MouseState.HOVER
+        Me.MaterialLabel8.Name = "MaterialLabel8"
+        Me.MaterialLabel8.Size = New System.Drawing.Size(46, 19)
+        Me.MaterialLabel8.TabIndex = 7
+        Me.MaterialLabel8.Text = "Misc:"
         '
-        'MaterialLabel10
+        'MaterialDivider1
         '
-        Me.MaterialLabel10.AutoSize = True
-        Me.MaterialLabel10.Depth = 0
-        Me.MaterialLabel10.Font = New System.Drawing.Font("Roboto", 11.0!)
-        Me.MaterialLabel10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.MaterialLabel10.Location = New System.Drawing.Point(229, 156)
-        Me.MaterialLabel10.MouseState = MaterialSkin.MouseState.HOVER
-        Me.MaterialLabel10.Name = "MaterialLabel10"
-        Me.MaterialLabel10.Size = New System.Drawing.Size(42, 19)
-        Me.MaterialLabel10.TabIndex = 14
-        Me.MaterialLabel10.Text = "Body"
+        Me.MaterialDivider1.BackColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MaterialDivider1.Depth = 0
+        Me.MaterialDivider1.Location = New System.Drawing.Point(329, 0)
+        Me.MaterialDivider1.MouseState = MaterialSkin.MouseState.HOVER
+        Me.MaterialDivider1.Name = "MaterialDivider1"
+        Me.MaterialDivider1.Size = New System.Drawing.Size(14, 262)
+        Me.MaterialDivider1.TabIndex = 6
+        Me.MaterialDivider1.Text = "MaterialDivider1"
+        '
+        'MaterialLabel7
+        '
+        Me.MaterialLabel7.AutoSize = True
+        Me.MaterialLabel7.Depth = 0
+        Me.MaterialLabel7.Font = New System.Drawing.Font("Roboto", 11.0!)
+        Me.MaterialLabel7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MaterialLabel7.Location = New System.Drawing.Point(241, 63)
+        Me.MaterialLabel7.MouseState = MaterialSkin.MouseState.HOVER
+        Me.MaterialLabel7.Name = "MaterialLabel7"
+        Me.MaterialLabel7.Size = New System.Drawing.Size(75, 19)
+        Me.MaterialLabel7.TabIndex = 5
+        Me.MaterialLabel7.Text = "Password"
+        '
+        'MaterialLabel6
+        '
+        Me.MaterialLabel6.AutoSize = True
+        Me.MaterialLabel6.Depth = 0
+        Me.MaterialLabel6.Font = New System.Drawing.Font("Roboto", 11.0!)
+        Me.MaterialLabel6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MaterialLabel6.Location = New System.Drawing.Point(241, 18)
+        Me.MaterialLabel6.MouseState = MaterialSkin.MouseState.HOVER
+        Me.MaterialLabel6.Name = "MaterialLabel6"
+        Me.MaterialLabel6.Size = New System.Drawing.Size(51, 19)
+        Me.MaterialLabel6.TabIndex = 4
+        Me.MaterialLabel6.Text = "E-mail"
+        '
+        'pPassFrom
+        '
+        Me.pPassFrom.Depth = 0
+        Me.pPassFrom.Hint = ""
+        Me.pPassFrom.Location = New System.Drawing.Point(15, 63)
+        Me.pPassFrom.MaxLength = 32767
+        Me.pPassFrom.MouseState = MaterialSkin.MouseState.HOVER
+        Me.pPassFrom.Name = "pPassFrom"
+        Me.pPassFrom.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.pPassFrom.SelectedText = ""
+        Me.pPassFrom.SelectionLength = 0
+        Me.pPassFrom.SelectionStart = 0
+        Me.pPassFrom.Size = New System.Drawing.Size(208, 23)
+        Me.pPassFrom.TabIndex = 1
+        Me.pPassFrom.TabStop = False
+        Me.pPassFrom.UseSystemPasswordChar = False
+        '
+        'pMailFrom
+        '
+        Me.pMailFrom.Depth = 0
+        Me.pMailFrom.Hint = ""
+        Me.pMailFrom.Location = New System.Drawing.Point(15, 18)
+        Me.pMailFrom.MaxLength = 32767
+        Me.pMailFrom.MouseState = MaterialSkin.MouseState.HOVER
+        Me.pMailFrom.Name = "pMailFrom"
+        Me.pMailFrom.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.pMailFrom.SelectedText = ""
+        Me.pMailFrom.SelectionLength = 0
+        Me.pMailFrom.SelectionStart = 0
+        Me.pMailFrom.Size = New System.Drawing.Size(208, 23)
+        Me.pMailFrom.TabIndex = 0
+        Me.pMailFrom.TabStop = False
+        Me.pMailFrom.UseSystemPasswordChar = False
+        '
+        'MaterialTabSelector1
+        '
+        Me.MaterialTabSelector1.BaseTabControl = Me.MaterialTabControl1
+        Me.MaterialTabSelector1.Depth = 0
+        Me.MaterialTabSelector1.Location = New System.Drawing.Point(176, 35)
+        Me.MaterialTabSelector1.MouseState = MaterialSkin.MouseState.HOVER
+        Me.MaterialTabSelector1.Name = "MaterialTabSelector1"
+        Me.MaterialTabSelector1.Size = New System.Drawing.Size(388, 26)
+        Me.MaterialTabSelector1.TabIndex = 2
+        Me.MaterialTabSelector1.Text = "MaterialTabSelector1"
         '
         'pChecker
         '
         Me.pChecker.Enabled = True
         '
-        'MaterialLabel11
+        'pUnprintableBypass
         '
-        Me.MaterialLabel11.AutoSize = True
-        Me.MaterialLabel11.Depth = 0
-        Me.MaterialLabel11.Font = New System.Drawing.Font("Roboto", 11.0!)
-        Me.MaterialLabel11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.MaterialLabel11.Location = New System.Drawing.Point(17, 195)
-        Me.MaterialLabel11.MouseState = MaterialSkin.MouseState.HOVER
-        Me.MaterialLabel11.Name = "MaterialLabel11"
-        Me.MaterialLabel11.Size = New System.Drawing.Size(48, 19)
-        Me.MaterialLabel11.TabIndex = 4
-        Me.MaterialLabel11.Text = "Todo:"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(21, 214)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(120, 13)
-        Me.Label3.TabIndex = 5
-        Me.Label3.Text = "- Random 10minute mail"
+        Me.pUnprintableBypass.AutoSize = True
+        Me.pUnprintableBypass.Depth = 0
+        Me.pUnprintableBypass.Enabled = False
+        Me.pUnprintableBypass.Font = New System.Drawing.Font("Roboto", 10.0!)
+        Me.pUnprintableBypass.Location = New System.Drawing.Point(373, 131)
+        Me.pUnprintableBypass.Margin = New System.Windows.Forms.Padding(0)
+        Me.pUnprintableBypass.MouseLocation = New System.Drawing.Point(-1, -1)
+        Me.pUnprintableBypass.MouseState = MaterialSkin.MouseState.HOVER
+        Me.pUnprintableBypass.Name = "pUnprintableBypass"
+        Me.pUnprintableBypass.Ripple = True
+        Me.pUnprintableBypass.Size = New System.Drawing.Size(100, 30)
+        Me.pUnprintableBypass.TabIndex = 15
+        Me.pUnprintableBypass.TabStop = True
+        Me.pUnprintableBypass.Text = "Unprintable"
+        Me.pUnprintableBypass.UseVisualStyleBackColor = True
         '
         'main
         '
@@ -560,4 +580,5 @@ Partial Class main
     Friend WithEvents pChecker As Timer
     Friend WithEvents Label3 As Label
     Friend WithEvents MaterialLabel11 As MaterialSkin.Controls.MaterialLabel
+    Friend WithEvents pUnprintableBypass As MaterialSkin.Controls.MaterialRadioButton
 End Class
