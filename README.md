@@ -1,7 +1,5 @@
 # hcpmailbomber-recode
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d35b43519b2f470ba80b6131952fcc9a)](https://app.codacy.com/manual/floyare/hcpmailbomber-recode?utm_source=github.com&utm_medium=referral&utm_content=floyare/hcpmailbomber-recode&utm_campaign=Badge_Grade_Dashboard)
-
 Mailbomber with multithreading and bypasses.
 
 ## About
